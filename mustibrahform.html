@@ -1,0 +1,154 @@
+<DOCTYPE! html>
+  <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <head>
+      <title> Mustibrah Model School</title>
+    </head>
+    <body> 
+     <h1> Mustibrah Model School</h1>
+     <div class="container">
+        <h3> Register</h3>
+        <!--Registration form-->
+      <form class="registration-form">
+        <!--first name field-->
+        <input type="text" name="name" formaction="" formtarget="" placeholder="First name" required>
+        <!--last name field-->
+         <input type=" text" name="last name" formaction="" formtarget="" placeholder="name">
+         <!--middle name field-->
+         <input type="text" name="middle ame" formaction="" formtarget="" placeholder="Middle name (Optional)" required/>
+         <!--number field-->
+         <input type="tel" name="number" formaction="" formtarget="" placeholder="+234..." required/>
+         <!--Email field-->
+         <input type="email" name="email" formaction="" formtarget="" placeholder="Email address" required><br/>
+         <!--Home address selection-->
+         <label> Your home address:</label><br/>
+          <select name="address">
+            <option value="naibawa">Na'ibawa</option>
+            <option value="kundila">Kundila</option>
+            <option value="hotoro">Hotoro</option>
+            <option value="gadon kaya">Gadon kaya</option>
+            <option value="zoo road">Zoo road</option>
+            <option value="tudun fulani">Tudun fulani</option>
+            <option value="kofar nasarawa">Kofar nasarawa</option>
+            <option value="wailari">Wailari</option>
+            <option value="yan lemo">Yan lemo</option>
+          </select><br/>
+          <!--Date of birth field-->
+         <label for="age">Date of birth:</label>
+         <input type="date" name="date" placeholder="DD/YY/MM"><br/>
+         <!--Gender field-->
+         <label for="gender"> Gender:</label><br/>
+         <!--Male radio-->
+         <input type="radio" id="genderchoice1" name="gender" value="Male" />
+      <label for="genderchoice">Male</label>
+         <input type="radio" id="genderchoice2" name="gender" value="female" />
+      <label for="genderchoice">Female</label><br/>
+      <label for="gender"> Your level:</label><br/>
+        <input type="checkbox" id="levelchoice1" name="level" value="primary" />
+      <label for="levelchoice">Primary
+      </label>
+         <input type="checkbox" id="levelchoice2" name="level" value="junior" />
+      <label for="levelchoice">Secondary
+      </label>
+      <!--submit button-->
+         <button type="submit" onclick="myfunction">Submit</button>
+         <p class="me"> Sadiq Ahmad code byte🙋</p>
+      </form>
+      </div>
+      <footer>
+      <center>
+       <h4>OR</h4>
+       <p>Contact:</p>
+       <a href=""><img src="file:///storage/emulated/0/Download/icons8-whatsapp.svg" alt="whatsapp"></a>
+       <a href=""><img src="file:///storage/emulated/0/Download/icons8-facebook.svg" alt="facebook"></a>
+       <a href=""><img src="file:///storage/emulated/0/Download/icons8-instagram.svg" alt="instagram"></a>
+       <a href=""><img
+       src="file:///storage/emulated/0/Download/icons8-twitter.svg" alt="t
+witter"></a>
+       </center>
+      </footer>
+    </body>
+    <style>
+    /* hi styling*/
+     h1{
+       color:#4259f0;
+       text-align:center;
+       font-family:Georgia;
+       filter:drop-shadow(3px 2px 3px  black);
+     }
+     body{
+       background-color:#555e75;
+       margin-bottom:50px;
+     }
+       label{
+         font-size:10px;
+       }
+    /*styling the ccontaine*/
+      .container{
+        padding:20px;
+        margin:30px;
+        background-color:#94969c;
+        border-radius:10px;
+      }
+      input, select{
+        padding:7px;
+        margin:10px 0px;
+        border-style:none;
+        border-radius:7px;
+        width:100%;
+        filter:drop-shadow(2px 1px 2px grey);
+      }
+      input[type="radio"],
+      input[type="checkbox"]{
+        display:inline;
+        width:50px;
+        filter:drop-shadow(2px 1px 2px grey);
+      }
+      button{
+        width:100%;
+        padding:5px;
+        border-radius:7px;
+        border-style:none;
+        background-color:#4259f0;
+        color:#eeeeee;
+        margin:10px 0px;
+      }
+      label[for="genderchoice"],
+      label[for="levelchoice"]{
+        font-size:16px;
+        margin:0px;
+      }
+      .me{
+        position:;
+        margin:0px;
+        text-align:center;
+        font-size:7px;
+      }
+      footer{
+        bottom:0px;
+        left:0px;
+        height:100px;
+        color:white;
+        padding-top:50px;
+      }
+      img{
+        display:inline;
+        width:30px;
+      }
+      h4{
+        border-bottom:1px solid #eeeeee;
+      }
+    </style>
+     <script> 
+        alert("Hey There!🙋😊😊");
+        alert(" Welcome to Mustibrah Model School!!")
+        function myFunction(){
+          var s = document.getElementByType('submit')
+          s.onlick = function(){
+          alert(sbdjdj);
+          }
+        }
+     </script>
+    </html>
